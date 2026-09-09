@@ -1,0 +1,46 @@
+VALIDITY PREDICTION — SUMMARY REPORT
+=============================================
+
+Best Model: Gradient Boosting
+F1 Score (Invalid class): 0.8095
+
+Model comparison (validation split):
+              Model  Precision (Invalid)  Recall (Invalid)  F1 (Invalid)  F1 (macro)
+  Gradient Boosting               0.9444            0.7083        0.8095      0.8935
+      Random Forest               1.0000            0.4167        0.5882      0.7748
+        Extra Trees               1.0000            0.4167        0.5882      0.7748
+Logistic Regression               0.2143            0.3750        0.2727      0.5636
+
+Top Important Features:
+Sensor_S1                0.270553
+Sensor_S2                0.186662
+Sensor_S3                0.184210
+Sensor_Fault_Flag        0.091012
+Sensor_S4                0.063068
+Power_kW                 0.057250
+Applied_Voltage_kV       0.036034
+Sensor_S3_was_missing    0.027414
+Sensor_S1_was_missing    0.026715
+Ambient_Temperature_C    0.025387
+
+Flag prevalence — Invalid vs Valid:
+                         Invalid_rate  Valid_rate       lift
+Sensor_Fault_Flag            0.188525    0.012702  14.842027
+Sensor_S2_outlier_flag       0.122951    0.000000        NaN
+Total_Missing_Sensors        0.122951    0.033487   3.671566
+Sensor_S3_was_missing        0.057377    0.000000        NaN
+Sensor_S1_was_missing        0.049180    0.000000        NaN
+Sensor_S1_outlier_flag       0.040984    0.000000        NaN
+Sensor_S2_was_missing        0.016393    0.000000        NaN
+Sensor_S3_outlier_flag       0.016393    0.000000        NaN
+Sensor_S2_negative_flag      0.008197    0.000000        NaN
+Sensor_S4_outlier_flag       0.008197    0.012702   0.645306
+Sensor_S3_negative_flag      0.000000    0.000000        NaN
+Sensor_S1_negative_flag      0.000000    0.000000        NaN
+Sensor_S4_negative_flag      0.000000    0.000000        NaN
+Sensor_S4_was_missing        0.000000    0.033487   0.000000
+
+Test-set prediction distribution:
+Predicted_Validity
+Valid      319
+Invalid     31

@@ -1,0 +1,15 @@
+,Invalid_rate,Valid_rate,lift
+Sensor_Fault_Flag,0.1885245901639344,0.012702078521939953,14.842026825633383
+Sensor_S2_outlier_flag,0.12295081967213115,0.0,
+Total_Missing_Sensors,0.12295081967213115,0.03348729792147806,3.6715658564160543
+Sensor_S3_was_missing,0.05737704918032787,0.0,
+Sensor_S1_was_missing,0.04918032786885246,0.0,
+Sensor_S1_outlier_flag,0.040983606557377046,0.0,
+Sensor_S2_was_missing,0.01639344262295082,0.0,
+Sensor_S3_outlier_flag,0.01639344262295082,0.0,
+Sensor_S2_negative_flag,0.00819672131147541,0.0,
+Sensor_S4_outlier_flag,0.00819672131147541,0.012702078521939953,0.6453055141579732
+Sensor_S3_negative_flag,0.0,0.0,
+Sensor_S1_negative_flag,0.0,0.0,
+Sensor_S4_negative_flag,0.0,0.0,
+Sensor_S4_was_missing,0.0,0.03348729792147806,0.0

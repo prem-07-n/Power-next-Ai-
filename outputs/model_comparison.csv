@@ -1,0 +1,5 @@
+Model,Precision (Invalid),Recall (Invalid),F1 (Invalid),F1 (macro)
+Gradient Boosting,0.9444,0.7083,0.8095,0.8935
+Random Forest,1.0,0.5833,0.7368,0.8545
+Extra Trees,1.0,0.4167,0.5882,0.7748
+Logistic Regression,0.2143,0.375,0.2727,0.5636
